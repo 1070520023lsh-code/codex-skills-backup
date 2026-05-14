@@ -12,6 +12,16 @@ $env:USERPROFILE\.codex\skills
 
 Then restart Codex.
 
+## Sync From This Computer
+
+Run:
+
+```powershell
+.\sync-skills-backup.ps1
+```
+
+The script copies all local skills except `.system`, updates `skills-manifest.txt`, commits changes, and pushes them to GitHub.
+
 ## Included Skills
 
 - brainstorming
@@ -20,4 +30,3 @@ Then restart Codex.
 - systematic-debugging
 - test-driven-development
 - verification-before-completion
-
