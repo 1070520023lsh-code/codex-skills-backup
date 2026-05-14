@@ -1,0 +1,6 @@
+brainstorming
+pdf
+playwright
+systematic-debugging
+test-driven-development
+verification-before-completion
